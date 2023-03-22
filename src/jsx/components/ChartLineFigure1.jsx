@@ -208,7 +208,7 @@ function LineChart({
                 size: 0
               },
               enabled: false,
-              lineWidth: line_width,
+              lineWidth: line_width
             }
           }
         }
