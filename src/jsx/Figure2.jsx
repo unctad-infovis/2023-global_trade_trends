@@ -53,9 +53,9 @@ function Figure2() {
         note="Environmental goods are defined as in the Combined List of Environmental Goods (OECD). Statistics are locally weighted smoothed averages."
         show_first_label
         source="UNCTAD calculations based on national statistics of China, the United States of America and the European Union."
-        subtitle="Index, Jan 2022 = 100"
+        subtitle="Index, January 2022 = 100"
         suffix=""
-        title="Global trade growing green"
+        title="Global trade is growing greener"
         ylabel=""
       />
       )}

@@ -47,7 +47,7 @@ function LineChart({
 }) {
   const chartRef = useRef();
   const isVisible = useIsVisible(chartRef, { once: true });
-  console.log(data);
+
   const chartHeight = 700;
   const createChart = useCallback(() => {
     Highcharts.chart(`chartIdx${idx}`, {

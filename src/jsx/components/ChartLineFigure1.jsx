@@ -336,7 +336,7 @@ function LineChart({
         tickLength: 5,
         tickWidth: 1,
         plotBands: [{
-          color: '#eee',
+          color: '#f4f3f3',
           from: 14.5,
           to: 15.5,
           label: {
@@ -351,10 +351,10 @@ function LineChart({
             text: 'Preliminary data',
             verticalAlign: 'middle',
             x: 15,
-            y: 80
+            y: 100
           }
         }, {
-          color: '#eee',
+          color: '#f4f3f3',
           from: 15.5,
           to: 16.5,
           label: {
@@ -366,10 +366,10 @@ function LineChart({
               fontSize: '14px',
               fontWeight: 400
             },
-            text: 'Nowcasts data',
+            text: 'Nowcast data',
             verticalAlign: 'middle',
             x: 15,
-            y: 80
+            y: 100
           }
         }],
         plotLines: [{

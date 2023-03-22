@@ -49,12 +49,12 @@ function Figure1() {
       <ChartLine
         idx="1"
         data={dataFigure}
-        note="Quarterly growth is the quarter over quarter growth rate of seasonally adjusted values."
+        note="Quarterly growth is the quarter-over-quarter growth rate of seasonally adjusted values."
         show_first_label
         source="UNCTAD calculations based on national statistics."
-        subtitle="Trends for trade in goods and services, quarter over quarter growth, 2019–2023 Q1"
+        subtitle="Trends for trade in goods and services, quarterly growth, 2019-2023 Q1"
         suffix="%"
-        title="Global trade trends: trade growth remains subpar"
+        title="Global trade growth remains weak, but services show some resilience"
         ylabel=""
       />
       )}
