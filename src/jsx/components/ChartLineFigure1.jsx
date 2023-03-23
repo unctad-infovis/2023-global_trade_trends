@@ -162,7 +162,7 @@ function LineChart({
       plotOptions: {
         line: {
           animation: {
-            duration: 3000,
+            duration: 3000
           },
           cursor: 'pointer',
           dataLabels: {
@@ -349,9 +349,9 @@ function LineChart({
               fontWeight: 400
             },
             text: 'Preliminary data',
-            verticalAlign: 'middle',
+            verticalAlign: 'bottom',
             x: 15,
-            y: 100
+            y: -110
           }
         }, {
           color: '#f4f3f3',
@@ -367,9 +367,9 @@ function LineChart({
               fontWeight: 400
             },
             text: 'Nowcast data',
-            verticalAlign: 'middle',
+            verticalAlign: 'bottom',
             x: 15,
-            y: 100
+            y: -94
           }
         }],
         plotLines: [{

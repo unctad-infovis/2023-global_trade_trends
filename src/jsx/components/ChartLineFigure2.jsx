@@ -151,7 +151,7 @@ function LineChart({
       plotOptions: {
         line: {
           animation: {
-            duration: 3000,
+            duration: 3000
           },
           cursor: 'pointer',
           dataLabels: {
