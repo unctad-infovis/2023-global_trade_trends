@@ -51,7 +51,7 @@ function Figure1() {
         data={dataFigure}
         note="Quarterly growth is the quarter-over-quarter growth rate of seasonally adjusted values."
         show_first_label
-        source="UNCTAD calculations based on national statistics."
+        source="UNCTADstat; UNCTAD calculations based on national statistics."
         subtitle="Trends for trade in goods and services, quarterly growth, 2019–2023 Q1"
         suffix="%"
         title="Global trade growth remains weak, but services show some resilience"
