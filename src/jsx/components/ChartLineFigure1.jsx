@@ -351,7 +351,7 @@ function LineChart({
             text: 'Estimates',
             verticalAlign: 'bottom',
             x: 15,
-            y: -110
+            y: -77
           }
         }, {
           color: '#f4f3f3',
@@ -369,7 +369,7 @@ function LineChart({
             text: 'Nowcast',
             verticalAlign: 'bottom',
             x: 15,
-            y: -94
+            y: -70
           }
         }],
         plotLines: [{
