@@ -68,7 +68,7 @@ function LineChart({
           fontFamily: 'Roboto',
           fontSize: '14px'
         },
-        text: `<em>Source:</em> ${source} <br /><em>Note:</em> <span>${note} Figures for Q4 2022 are preliminary. Q1 2023 is a <a href="https://unctadstat.unctad.org/en/Nowcasts.html">nowcast</a>.</span>`,
+        text: `<em>Source:</em> ${source} <br /><em>Note:</em> <span>${note} Figures for Q4 2022 are estimates. Q1 2023 is a <a href="https://unctadstat.unctad.org/en/Nowcasts.html">nowcast</a>.</span>`,
         verticalAlign: 'bottom',
         useHTML: true,
         x: 0
@@ -348,7 +348,7 @@ function LineChart({
               fontSize: '14px',
               fontWeight: 400
             },
-            text: 'Preliminary data',
+            text: 'Estimates',
             verticalAlign: 'bottom',
             x: 15,
             y: -110
@@ -366,7 +366,7 @@ function LineChart({
               fontSize: '14px',
               fontWeight: 400
             },
-            text: 'Nowcast data',
+            text: 'Nowcast',
             verticalAlign: 'bottom',
             x: 15,
             y: -94
